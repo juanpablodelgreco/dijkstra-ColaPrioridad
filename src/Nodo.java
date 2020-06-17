@@ -1,9 +1,9 @@
 
 public class Nodo {
-	
+
 	private int nroNodo;
 	private int grado = 0;
-	
+
 	public int getNroNodo() {
 		return nroNodo;
 	}
@@ -23,6 +23,5 @@ public class Nodo {
 	public Nodo(int nodo) {
 		this.setNroNodo(nodo);
 	}
-	
 
 }
